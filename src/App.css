@@ -1,5 +1,5 @@
 .main_dashboard{
-    background: url(./assests/Changi-website-1080.png);
+    background: url(./assests/Changi-website-rain-vortex.png);
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -18,7 +18,7 @@
   left: 11vw;
 }
 
-.fish_pond{
+.rain_vortex{
   position: absolute;
   bottom: 22vh;
   left: 11vw;

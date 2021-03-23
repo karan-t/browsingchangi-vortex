@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import AudioPlayer from "react-modular-audio-player";
-import fish_pond from "../assests/Fish pond.mp3";
+import rain_vortex from "../assests/The Rain Vortex Changi.mp3";
 import airport_ambience from "../assests/Airport ambience.mp3";
 import play from "../assests/Play button.svg"
 import play_hover from "../assests/Play button-Hover.svg"
@@ -13,7 +13,7 @@ var boolvalTrue = true;
 
 let audioFiles = [
   {
-    src: fish_pond,
+    src: rain_vortex,
   },
 ];
 let audioFiles2 = [
@@ -47,7 +47,7 @@ export default class MainDashbaord extends Component {
           volumeIcon = {volume}
           volumeEngagedIcon = {volume_hover}
         /></div>
-        <div className="fish_pond">
+        <div className="rain_vortex">
                 <AudioPlayer
           audioFiles={audioFiles}
           playerWidth="14rem"
